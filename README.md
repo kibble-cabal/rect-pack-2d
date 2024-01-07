@@ -12,15 +12,15 @@ Installation is the same as any other Godot plugin from GitHub.
 ### 1. Clone this repo to your project's `addons` folder.
 I recommend using a git submodule to clone:
 ```bash
-cd  your_project/addons
-git  submodule  add  https://github.com/kibble-cabal/rect-pack-2d.git  rect_pack_2d
-git  submodule  update  --init
+cd your_project/addons
+git submodule add https://github.com/kibble-cabal/rect-pack-2d.git rect_pack_2d
+git submodule update --init
 ```
 Otherwise, you can:
 1. Clone the normal way
 ```bash
-cd  your_project/addons
-git  clone  https://github.com/kibble-cabal/rect-pack-2d.git  rect_pack_2d
+cd your_project/addons
+git clone https://github.com/kibble-cabal/rect-pack-2d.git rect_pack_2d
 ```
 2. Download a ZIP file
 
@@ -32,14 +32,14 @@ I have also provided the `cleaned` branch, which removes `README.md`, `screensho
 Feel free to use either of these commands instead, if you'd like:
 ```bash
 # Using submodules
-cd  your_project/addons
-git  submodule  add  https://github.com/kibble-cabal/rect-pack-2d.git  -b  cleaned  rect_pack_2d
-git  submodule  update  --init
+cd your_project/addons
+git submodule add https://github.com/kibble-cabal/rect-pack-2d.git -b cleaned rect_pack_2d
+git submodule update --init
 ```
 ```bash
 # Cloning
-cd  your_project/addons
-git  clone  https://github.com/kibble-cabal/rect-pack-2d.git  -b  cleaned  rect_pack_2d
+cd your_project/addons
+git clone https://github.com/kibble-cabal/rect-pack-2d.git -b cleaned rect_pack_2d
 ```
 </details>
 
