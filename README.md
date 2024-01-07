@@ -33,13 +33,13 @@ Feel free to use either of these commands instead, if you'd like:
 ```bash
 # Using submodules
 cd your_project/addons
-git submodule add https://github.com/kibble-cabal/rect-pack-2d.git -b cleaned rect_pack_2d
+git submodule add -b cleaned https://github.com/kibble-cabal/rect-pack-2d.git rect_pack_2d
 git submodule update --init
 ```
 ```bash
 # Cloning
 cd your_project/addons
-git clone https://github.com/kibble-cabal/rect-pack-2d.git -b cleaned rect_pack_2d
+git clone -b cleaned https://github.com/kibble-cabal/rect-pack-2d.git rect_pack_2d
 ```
 </details>
 
