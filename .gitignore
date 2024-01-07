@@ -1,2 +1,5 @@
 # Godot 4+ specific ignores
 .godot/
+assets/icon.png.import
+assets/icon_grey.png.import
+assets/screenshot.png.import
