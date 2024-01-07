@@ -1,8 +1,8 @@
 
-# RectPack2D
+# ![Icon](assets/icon_grey.png) RectPack2D
 ### A plugin for Godot 4 to pack rectangles in a grid, preserving the order
 
-![Screenshot example of RectPack2D plugin](screenshot.png)
+![Screenshot example of RectPack2D plugin](assets/screenshot.png)
 
 This is a screenshot of the demo. In the demo, 7 rectangles are fed to three different rectangle packers. The results from these packers are then rendered using different colors. The set of red rectangles (top left) is unpacked.
 
@@ -28,7 +28,7 @@ git clone https://github.com/kibble-cabal/rect-pack-2d.git rect_pack_2d
 <details>
 <summary><h4>If you only want the essential files…</h4></summary>
 
-I have also provided the `cleaned` branch, which removes `README.md`, `screenshot.png`, and the `demo` folder.
+I have also provided the `cleaned` branch, which removes `README.md`, `screenshot.png`, `icon_grey.png`, and the `demo` folder.
 Feel free to use either of these commands instead, if you'd like:
 ```bash
 # Using submodules
